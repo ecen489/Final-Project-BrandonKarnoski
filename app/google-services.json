@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1083325435803",
+    "firebase_url": "https://hungryapp-f552f.firebaseio.com",
+    "project_id": "hungryapp-f552f",
+    "storage_bucket": "hungryapp-f552f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083325435803:android:7da7f7b8b48e95cc",
+        "android_client_info": {
+          "package_name": "com.example.hungry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083325435803-epajlf6ib6v8iab81059drjrojahajmu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6nReXKUzd5_PTMlh-S6YQtZjWl5oyGoM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083325435803-epajlf6ib6v8iab81059drjrojahajmu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

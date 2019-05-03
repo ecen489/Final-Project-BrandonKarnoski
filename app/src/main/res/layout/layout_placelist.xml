@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/parentLayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:id="@+id/placeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="PlaceName"
+        app:layout_constraintBottom_toTopOf="@id/placeAddr" />
+
+    <TextView
+        android:id="@+id/placeAddr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/placeName"
+        android:layout_alignEnd="@+id/placeName"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="4dp"
+        android:text="Place Addr"
+        app:layout_constraintTop_toBottomOf="@id/placeName" />
+
+    <TextView
+        android:id="@+id/placeLong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/placeAddr"
+        android:layout_alignStart="@+id/placeAddr"
+        android:layout_alignEnd="@+id/placeAddr"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="208dp"
+        android:text="Long" />
+
+    <TextView
+        android:id="@+id/placeLat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="61dp"
+        android:layout_toEndOf="@+id/placeLong"
+        android:text="Lat" />
+
+</RelativeLayout>
